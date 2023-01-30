@@ -3,10 +3,12 @@
 This repository contains some scripts that we have used to check some basic
 filesystem statistics in Aalto University's Triton cluster.
 
-## Filesizes
+## Scripts
+
+### Filesizes
 
 This folder contains a script that we have used to measure file size
-distributions on our filesystem (in Sep 2020), the data we obtained, a Python
+distributions on our filesystem , the data we obtained, a Python
 notebook used for plotting the data and some images created by the notebook.
 
 - `get_filesizes.sh`: This simple script goes through our filesystem, stats
@@ -38,3 +40,9 @@ Plots:
 - `usage.png` - File usage vs. file size
 - `usage_cdf.png` - File usage CDF vs. file size
 - `usage_cumulative.png` - Cumulative file usage vs. file size
+
+## Stats
+
+### ddn-scratch
+
+Old DDN provided lustre filesystem. Deprecated in 2021. Data was measured in Sep 2020.
