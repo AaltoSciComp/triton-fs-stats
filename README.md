@@ -46,3 +46,8 @@ Plots:
 ### ddn-scratch
 
 Old DDN provided lustre filesystem. Deprecated in 2021. Data was measured in Sep 2020.
+
+### apps-nfs
+
+Statistics of our nfs-server (ssd2) that we use for application storage. Data was measured
+in January 2023.
